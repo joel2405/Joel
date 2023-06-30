@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    padding: 90px 20px 0;
+}
+.header{
+    background-color:rgb(0, 0, 0);
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-link{
+    color:rgb(247, 0, 255);
+    text-decoration: none;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link{
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+
+.nav-menu-link:hover{
+    background-color: rgb(81, 230, 52);
+    transition: 0.5s;
+    width: 80px;
+    height: 50px;
+}
+.nav-menu{
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+
+}
+.nav-menu-item{
+    font-size: 18px;
+    margin: opx;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.imagen {
+    width: 250px;
+    height: 250px;
+    margin: 0 15px;
+    border-radius: 15px;
+}
+
+.card {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    margin: 0 15px;
+    border: 2px solid  rgb(102, 238, 248);
+}
+
+.card h1 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.joel {
+    border: 2px solid  rgb(130, 77, 255);
+    border-radius: 18px;
+    color: rgb(247, 0, 255);
+    background-color: #ffffff;
+}
+
+.joel {
+    background: rgb(0, 0, 0);
+    width: 1200px;
+    height: 50px;
+}
+
+
+.body {
+    border: 2px solid rgb(130, 77, 255);
+    border-radius: 18px;
+    color: rgb(247, 0, 255);
+    background-color: #000000;
+    width: 1200px;
+    height: 50px;
+}
+
+
+.body1 {
+    border: 50px solid rgb(248, 248, 248);
+}
+
+.container1 {
+    display: flex;
+}
+.a {
+    background-color: lightgreen
+}
+.b {
+    background-color:lightsalmon
+}
+.c {
+    background-color:lightgrey
+}
+.d {
+    background-color:lightcoral
+}
+.e {
+    background-color: rgb(158, 117, 131);
+}
+.F {
+    background-color:  rgb(253, 0, 0);;
+}
+.g {
+    background-color: rgb(236, 236, 155);
+}
+.h {
+    background-color: rgb(144, 216, 212)
+}
+
+.war {
+    border: 2px solid rgb(130, 77, 255);
+    border-radius: 18px;
+    color: rgb(247, 0, 255);
+    background-color: #000000;
+    width: 1200px;
+    height: 50px;
+}
+.lema{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+.ciudad {
+    border: 2px solid  rgb(130, 77, 255);
+    border-radius: 18px;
+    color: rgb(247, 0, 255);
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.ciudad {
+    background: rgb(0, 0, 0);
+    width: 1200px;
+    height: 50px;
+}
+
+.ciudades {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+}
+.borde1 {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    margin: 0 18px;
+    border: 2px solid  rgb(102, 238, 248);
+    font-size: 16px;
+    height: 420px;
+}
+
+.monqui {
+    border-radius: 60px;
+    width: 300px;
+    height: 300px;
+}
+.borde2 {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    margin: 0 27px;
+    border: 2px solid  rgb(102, 238, 248);
+    font-size: 16px;
+    height: 420px;
+}
+.borde3 {
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    margin: 0 18px;
+    border: 2px solid  rgb(102, 238, 248);
+    font-size: 16px;
+    height: 420px;
+}
